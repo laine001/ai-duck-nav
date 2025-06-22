@@ -1,0 +1,67 @@
+/* src/index.css */
+/* @tailwind utilities; */
+
+/* 导入Font Awesome */
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'); */
+
+:root {
+  --primary: #6366f1;
+  --secondary: #8b5cf6;
+  --accent: #ec4899;
+  --neutral: #1f2937;
+  --neutral-light: #f3f4f6;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* 自定义工具类 */
+.gradient-text {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  color: white;
+  font-weight: medium;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 8px rgba(99, 102, 241, 0.2);
+  }
+}
+.btn-accent {
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #a855f7);
+  background: linear-gradient(to right, var(--primary), #a855f7);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-hover {
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+  }
+}
