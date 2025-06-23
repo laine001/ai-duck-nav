@@ -5,14 +5,14 @@ import CategoryTabs from "../../components/CategoryTabs";
 import WeekRecommend from "../../components/WeekRecommend";
 import { tools } from "../../libs/ai-nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserXmark } from "@fortawesome/free-solid-svg-icons";
+import { faList, faBars } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState("all");
   const [isSimpleCard, setIsSimpleCard] = useState(false);
-
+  const [selectedCategory, setSelectedCategory] = useState<any | null>(null);
   // useEffect(() =>{
   //   const html = document.querySelector("html");
   //   console.log(html, 'html')
@@ -44,11 +44,13 @@ const Home = () => {
       {/* 英雄区域 */}
       <section className="mb-16 text-center">
         <h2 className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-6 gradient-text">
-          {t('探索人工智能的无限可能')}
+          {t("探索人工智能的无限可能")}
           {/*  */}
         </h2>
         <p className="text-[clamp(1rem,2vw,1.25rem)] text-neutral/80 max-w-3xl mx-auto mb-8 dark:text-white">
-          {t('发现并使用这些精心挑选的AI工具，提升你的工作效率和创造力，探索AI的无限可能！')}
+          {t(
+            "发现并使用这些精心挑选的AI工具，提升你的工作效率和创造力，探索AI的无限可能！"
+          )}
         </p>
 
         {/* 搜索框（移动端） */}
@@ -67,26 +69,30 @@ const Home = () => {
             <div className="text-3xl font-bold text-primary mb-2 dark:text-white">
               100+
             </div>
-            <div className="text-neutral/70 dark:text-white">{t('AI工具')}</div>
+            <div className="text-neutral/70 dark:text-white">{t("AI工具")}</div>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-md dark:bg-gray-700 dark:text-white">
             <div className="text-3xl font-bold text-secondary mb-2 dark:text-white">
               20+
             </div>
-            <div className="text-neutral/70 dark:text-white">{t('工具分类')}</div>
+            <div className="text-neutral/70 dark:text-white">
+              {t("工具分类")}
+            </div>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-md dark:bg-gray-700 dark:text-white">
             <div className="text-3xl font-bold text-accent mb-2 dark:text-white">
               1000+
             </div>
-            <div className="text-neutral/70 dark:text-white">{t('活跃用户')}</div>
+            <div className="text-neutral/70 dark:text-white">
+              {t("活跃用户")}
+            </div>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-md dark:bg-gray-700 dark:text-white">
             <div className="text-3xl font-bold text-green-500 mb-2 dark:text-white">
-              {t('每日更新')}
+              {t("每日更新")}
             </div>
             <div className="text-neutral/70 dark:text-white">
-              {t('不断添加新工具')}
+              {t("不断添加新工具")}
             </div>
           </div>
         </div>
@@ -96,9 +102,11 @@ const Home = () => {
       <section className="mb-16">
         <div className="flex justify-between items-center mb-8">
           <div className="flex items-center">
-            <h3 className="text-2xl font-bold text-neutral mr-2 dark:text-white">工具分类</h3>
+            <h3 className="text-2xl font-bold text-neutral mr-2 dark:text-white">
+              工具分类
+            </h3>
             <FontAwesomeIcon
-              icon={faUserXmark}
+              icon={isSimpleCard ? faList : faBars}
               className="cursor-pointer hover:text-gray-600"
               onClick={toggleCardStyle}
             />
@@ -120,7 +128,8 @@ const Home = () => {
         {/* 加载更多按钮 */}
         <div className="text-center mt-10">
           <button className="btn-primary">
-            <i className="fa-solid fa-plus mr-2"></i>{t('加载更多工具')}
+            <i className="fa-solid fa-plus mr-2"></i>
+            {t("加载更多工具")}
           </button>
         </div>
       </section>
@@ -198,6 +207,22 @@ const Home = () => {
             <h4 className="font-medium text-neutral">更多类别</h4>
             <p className="text-xs text-neutral/60 mt-1">42个工具</p>
           </a>
+        </div>
+        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 bg-white/60 backdrop-blur-md p-4 shadow-lg rounded-r-lg">
+          <h3 className="font-bold mb-1">分类</h3>
+          <ul>
+            {categories.map((category) => (
+              <li
+                key={category.value}
+                className={`cursor-pointer py-1 hover:text-blue-500 ${
+                  selectedCategory === category.value ? "text-blue-500" : ""
+                }`}
+                onClick={() => setSelectedCategory(category.value)}
+              >
+                {category.label}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
     </main>

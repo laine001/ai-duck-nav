@@ -1,9 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 export default () => {
+  const { t } = useTranslation();
   return (
     <section className="mb-16 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-8">
       <div className="text-center mb-10">
-        <h3 className="text-3xl font-bold gradient-text mb-4">本周精选AI工具</h3>
-        <p className="text-neutral/70 max-w-2xl mx-auto">我们精心挑选的顶级AI工具，为你提供卓越的使用体验</p>
+        <h3 className="text-3xl font-bold gradient-text mb-4">{t('本周精选AI工具')}</h3>
+        <p className="text-neutral/70 max-w-2xl mx-auto">{t('我们精心挑选的顶级AI工具，为你提供卓越的使用体验')}</p>
       </div>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -25,7 +28,7 @@ export default () => {
               </div>
             </div>
             <button className="btn-primary self-start">
-              <i className="fa-solid fa-external-link-alt mr-2"></i>访问官网
+              <i className="fa-solid fa-external-link-alt mr-2"></i>{t('访问官网')}
             </button>
           </div>
         </a>
@@ -48,7 +51,7 @@ export default () => {
               </div>
             </div>
             <button className="btn-accent self-start">
-              <i className="fa-solid fa-external-link-alt mr-2"></i>访问官网
+              <i className="fa-solid fa-external-link-alt mr-2"></i>{t('访问官网')}
             </button>
           </div>
         </a>
