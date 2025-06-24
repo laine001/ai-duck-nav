@@ -1,58 +1,74 @@
 // src/components/ToolCard.jsx
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-const ToolCard = ({ tool, isSimple }: any) => {
+import { generateBadgeClass, generateRandomBg } from "@/libs/utils";
+
+const ToolCard = ({
+  url,
+  name,
+  icon,
+  categoryName,
+  categoryCode,
+  desc,
+  isSimple,
+}: any) => {
   if (isSimple) {
     return (
       <a
-        href={tool.url}
+        href={url}
         target="_blank"
         className="p-3 bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 dark:bg-gray-700 dark:text-white"
       >
         <div className="flex items-baseline mb-2">
-          <span className="font-semibold dark:text-white">{tool.name}</span> 
+          <span className="font-semibold dark:text-white">{name}</span>
           <span className="ml-2 text-xs text-gray-800 dark:text-white">
-            {tool.categoryText}
+            {categoryName}
           </span>
         </div>
-        <p className="text-sm text-gray-600 dark:text-white/600">{tool.description}</p>
+        <p className="text-sm text-gray-600 dark:text-white/600">{desc}</p>
       </a>
     );
   }
   return (
     <a
-      href={tool.url}
+      href={url}
       target="_blank"
       className="bg-white rounded-xl overflow-hidden shadow-md card-hover tool-card dark:bg-gray-700"
-      data-category={tool.category}
+      data-category={categoryCode}
     >
       <div
-        className={`h-48 bg-gradient-to-br ${tool.gradientClass} flex items-center justify-center`}
+        // \${tool.gradientClass}
+        className={`h-48 bg-gradient-to-br ${generateRandomBg()} flex items-center justify-center`}
       >
-        {tool.image ? (
+        {icon ? (
           <img
-            src={tool.image}
-            alt={tool.name}
+            src={icon}
+            alt={categoryName}
             className="w-32 h-32 rounded-full object-cover shadow-lg"
           />
         ) : (
-          <i className={`fa-solid ${tool.icon} text-white text-6xl`} />
+          // icon
+          <i className={`fa-solid text-white text-6xl`} />
         )}
       </div>
       <div className="p-6">
         <div className="flex justify-between items-start mb-3">
-          <h4 className="text-xl font-bold text-neutral dark:text-white">{tool.name}</h4>
+          <h4 className="text-xl font-bold text-neutral dark:text-white">
+            {name}
+          </h4>
           <span
-            className={`px-2 py-1 ${tool.badgeClass} rounded-full text-xs font-medium`}
+            // ${tool.badgeClass}
+            className={`px-2 py-1 ${generateBadgeClass(categoryCode)} rounded-full text-xs font-medium`}
           >
-            {tool.categoryText}
+            {categoryName}
           </span>
         </div>
-        <p className="text-neutral/70 text-sm mb-4 dark:text-white">{tool.description}</p>
+        <p className="text-neutral/70 text-sm mb-4 dark:text-white">{desc}</p>
         <div className="flex justify-between items-center">
           <span className="text-xs text-neutral/50">
-            <i className="fa-solid fa-star mr-1"></i> {tool.rating}
+          {/* {tool.rating} */}
+            <i className="fa-solid fa-star mr-1"></i> 4.2
           </span>
-          <button className="text-primary hover:text-secondary transition-colors text-sm font-medium">
+          <button className="text-primary cursor-pointer hover:text-secondary transition-colors text-sm font-medium">
             立即访问 <i className="fa-solid fa-arrow-right ml-1"></i>
           </button>
         </div>

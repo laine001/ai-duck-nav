@@ -3,10 +3,12 @@ import { useState } from "react";
 import ToolCard from "../../components/ToolCard";
 import CategoryTabs from "../../components/CategoryTabs";
 import WeekRecommend from "../../components/WeekRecommend";
-import { tools } from "../../libs/ai-nav";
+import { aiNavData } from "@/libs/nav-data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList, faBars } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
+import type { INavListItemType, INavDataType } from "@/types/interface";
+import { categoryMap } from "../../libs/const";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -25,19 +27,14 @@ const Home = () => {
   // 过滤工具
   const filteredTools =
     activeCategory === "all"
-      ? tools
-      : tools.filter((tool) => tool.category === activeCategory);
+      ? aiNavData
+      : aiNavData.filter((tool) => tool.categoryCode === activeCategory);
 
   // 分类数据
-  const categories = [
-    { value: "all", label: "全部" },
-    { value: "assistant", label: "智能助手" },
-    { value: "text", label: "文本生成" },
-    { value: "image", label: "图像生成" },
-    { value: "video", label: "视频编辑" },
-    // { value: "data", label: "数据分析" },
-    // { value: "more", label: "更多分类" },
-  ];
+  const categories = Object.keys(categoryMap).map((code) => ({
+    code,
+    name: categoryMap[code as keyof typeof categoryMap],
+  }));
 
   return (
     <main className="container mx-auto px-4 py-8">
@@ -57,7 +54,7 @@ const Home = () => {
         <div className="md:hidden relative mb-8">
           <input
             type="text"
-            placeholder="搜索AI工具..."
+            placeholder={t('搜索AI工具...')}
             className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50"
           />
           <i className="fa-solid fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
@@ -119,11 +116,24 @@ const Home = () => {
         </div>
 
         {/* AI工具卡片网格 */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredTools.map((tool) => (
-            <ToolCard key={tool.id} tool={tool} isSimple={isSimpleCard} />
-          ))}
-        </div>
+        {filteredTools.map((item: INavDataType) => {
+          return (
+            <>
+              <div className="text-xl my-4">{item.categoryName}</div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {item.list.map((tool: INavListItemType, index: number) => (
+                  <ToolCard
+                    {...tool}
+                    key={index}
+                    categoryCode={item.categoryCode}
+                    categoryName={item.categoryName}
+                    isSimple={isSimpleCard}
+                  />
+                ))}
+              </div>
+            </>
+          );
+        })}
 
         {/* 加载更多按钮 */}
         <div className="text-center mt-10">
