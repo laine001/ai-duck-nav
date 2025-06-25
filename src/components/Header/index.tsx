@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/aiduck.png";
+import './index.css';
 
 const Header = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Header = () => {
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
             {/* <i className="fa-solid fa-robot text-white"></i> */}
-            <img src={logo} alt="" />
+            <img className="logo-animation" src={logo} alt="" />
           </div>
           <h1 className="text-xl font-bold gradient-text">AIDuck
             <span>{t('工具箱')}</span>

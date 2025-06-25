@@ -6,8 +6,6 @@
   "工具分类": "Tool Categories",
   "活跃用户": "Active Users",
   "加载更多工具": "Load More Tools",
-  "全部": "All",
-  "智能助手": "AI Assistant",
   "文本生成": "Text Generation",
   "图像生成": "Image Generation",
   "视频编辑": "Video Editing",
@@ -17,5 +15,16 @@
   "本周精选AI工具": "AI Tools of the Week",
   "访问官网": "Visit Website",
   "工具箱": "Toolbox",
-  "我们精心挑选的顶级AI工具，为你提供卓越的使用体验": "Our carefully selected top AI tools, providing you with an exceptional user experience"
+  "我们精心挑选的顶级AI工具，为你提供卓越的使用体验": "Our carefully selected top AI tools, providing you with an exceptional user experience",
+  "全部": "All",
+  "智能助手": "AI Assistant",
+  "AI搜索": "AI Search",
+  "AI写作": "AI Writing",
+  "AI图像": "AI Image",
+  "AI编程": "AI programming",
+  "AI音频": "AI Audio",
+  "AI视频": "AI Video",
+  "办公工具": "AI Office",
+  "AI设计": "AI Design",
+  "效率提升": "Efficiency"
 }

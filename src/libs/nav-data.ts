@@ -438,7 +438,7 @@ export const aiNavData: INavDataType[] = [
       {
         "name": "360智脑",
         "desc": "360搜索最新推出的AI对话聊天机器人",
-        "url": "https://ai.360.com/?src=ai-bot.cn",
+        "url": "https://ai.360.com/?src=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2023/06/ai-360-icon.png"
       },
       {
@@ -810,7 +810,7 @@ export const aiNavData: INavDataType[] = [
       {
         "name": "星火文档问答",
         "desc": "基于讯飞星火大模型的AI文档和知识库问答助手",
-        "url": "https://chatdoc.xfyun.cn/?from=ai-bot.cn",
+        "url": "https://chatdoc.xfyun.cn/?from=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2023/11/xinghuo-icon.png"
       },
       {
@@ -1680,7 +1680,7 @@ export const aiNavData: INavDataType[] = [
       {
         "name": "175FUN",
         "desc": "免费AI绘画社区，国货之光",
-        "url": "https://175.fun/?refer=ai-bot.cn",
+        "url": "https://175.fun/?refer=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2023/08/175fun-logo.png"
       },
       {
@@ -2946,7 +2946,7 @@ export const aiNavData: INavDataType[] = [
       {
         "name": "ima.copilot",
         "desc": "腾讯推出的AI智能工作台产品，基于混元大模型",
-        "url": "https://ima.qq.com/?utm_source=ai-bot.cn",
+        "url": "https://ima.qq.com/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/10/ima-logo.png"
       },
       {
@@ -2958,25 +2958,25 @@ export const aiNavData: INavDataType[] = [
       {
         "name": "Monica",
         "desc": "全能AI助手，提供聊天、搜索、写作、翻译等多功能服务",
-        "url": "https://monica.cn/?utm_source=ai-bot.cn",
+        "url": "https://monica.cn/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/monica-icon.png"
       },
       {
         "name": "WPS灵犀",
         "desc": "WPS推出的AI办公助手，支持PPT生成、AI写作",
-        "url": "https://lingxi.wps.cn/?utm_source=ai-bot.cn",
+        "url": "https://lingxi.wps.cn/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/copilot-wps-logo.jpg"
       },
       {
         "name": "Glif",
         "desc": "无代码的AI小工具构建平台",
-        "url": "https://glif.app/?utm_source=ai-bot.cn",
+        "url": "https://glif.app/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/07/glif-app-icon.png"
       },
       {
         "name": "奇觅",
         "desc": "美图推出的游戏广告AI制作与投放平台",
-        "url": "https://qimi.com/?utm_source=ai-bot.cn",
+        "url": "https://qimi.com/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/06/qimi-icon.png"
       },
       {
@@ -2988,91 +2988,91 @@ export const aiNavData: INavDataType[] = [
       {
         "name": "苏打办公",
         "desc": "360公司推出的一站式AI办公工具",
-        "url": "https://bangong.360.cn/?utm_source=ai-bot.cn",
+        "url": "https://bangong.360.cn/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/10/suda-bangong-logo.png"
       },
       {
         "name": "Tome",
         "desc": "AI销售助手",
-        "url": "https://tome.app/?utm_source=ai-bot.cn",
+        "url": "https://tome.app/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2025/05/Tome-logo.png"
       },
       {
         "name": "Hoarder",
         "desc": "开源的基于AI的书签和个人知识库管理工具",
-        "url": "https://hoarder.app/?utm_source=ai-bot.cn",
+        "url": "https://hoarder.app/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/06/hoarder-app-icon.png"
       },
       {
         "name": "通义晓蜜",
         "desc": "阿里推出的企业智能服务解决方案",
-        "url": "https://tongyi.aliyun.com/xiaomi?utm_source=ai-bot.cn",
+        "url": "https://tongyi.aliyun.com/xiaomi?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/04/tongyi-icon.png"
       },
       {
         "name": "奇妙问",
         "desc": "企业AI数字员工生成平台",
-        "url": "https://aiask365.com/?utm_source=ai-bot.cn",
+        "url": "https://aiask365.com/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/04/aiask365.com_.png"
       },
       {
         "name": "NotebookLM",
         "desc": "谷歌推出的AI笔记应用，5分钟生成一段对话播客",
-        "url": "https://notebooklm.google/?utm_source=ai-bot.cn",
+        "url": "https://notebooklm.google/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/09/NotebookLM-logo.png"
       },
       {
         "name": "影刀AI Power",
         "desc": "面向企业的无代码AI开发和集成平台",
-        "url": "https://www.yingdao.com/ai-power/?utm_source=ai-bot.cn",
+        "url": "https://www.yingdao.com/ai-power/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/04/yingdao-ai-power-logo.png"
       },
       {
         "name": "通答AI",
         "desc": "企业AI数字员工生成平台",
-        "url": "https://www.tongdaai.com/?utm_source=ai-bot.cn",
+        "url": "https://www.tongdaai.com/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/06/tongda-ai-icon.png"
       },
       {
         "name": "司马诸葛",
         "desc": "企业级AI数字员工平台",
-        "url": "https://smartchoose.cn/?utm_source=ai-bot.cn",
+        "url": "https://smartchoose.cn/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/07/smartchoose-logo.png"
       },
       {
         "name": "靠谱AI",
         "desc": "无代码AI机器人创建平台",
-        "url": "https://www.kaopuai.com/?utm_source=ai-bot.cn",
+        "url": "https://www.kaopuai.com/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/kaopuai-icon.png"
       },
       {
         "name": "Einstein Copilot",
         "desc": "Salesforce推出的CRM系统AI对话助手",
-        "url": "https://www.salesforce.com/einsteincopilot?ref=ai-bot.cn",
+        "url": "https://www.salesforce.com/einsteincopilot?ref=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/02/einstein-copilot-icon.png"
       },
       {
         "name": "Zapier AI",
         "desc": "Zapier推出的AI自动化集成功能",
-        "url": "https://zapier.com/ai?utm_source=ai-bot.cn",
+        "url": "https://zapier.com/ai?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/zapier-icon.png"
       },
       {
         "name": "怪兽AI知识库",
         "desc": "企业知识库大模型 + 智能AI问答机器人",
-        "url": "https://www.guaishouai.net/?utm_source=ai-bot.cn",
+        "url": "https://www.guaishouai.net/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/07/guaishouai-net-logo.png"
       },
       {
         "name": "熊猫办公",
         "desc": "AI办公服务平台，提供PPT模板、Excel模板、Word模板等资源",
-        "url": "https://www.tukuppt.com/?utm_source=ai-bot.cn",
+        "url": "https://www.tukuppt.com/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/10/tukuppt-logo.png"
       },
       {
         "name": "小易AI",
         "desc": "易企秀推出的AI办公工具",
-        "url": "https://ai.eqxiu.com/?utm_source=ai-bot.cn",
+        "url": "https://ai.eqxiu.com/?utm_source=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2024/10/xiaoyiAI-logo.png"
       },
       {

@@ -14,7 +14,7 @@ const Home = () => {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState("all");
   const [isSimpleCard, setIsSimpleCard] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState<any | null>(null);
+  // const [selectedCategory, setSelectedCategory] = useState<any | null>(null);
   // useEffect(() =>{
   //   const html = document.querySelector("html");
   //   console.log(html, 'html')
@@ -218,22 +218,22 @@ const Home = () => {
             <p className="text-xs text-neutral/60 mt-1">42个工具</p>
           </a>
         </div>
-        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 bg-white/60 backdrop-blur-md p-4 shadow-lg rounded-r-lg">
+        {/* <div className="fixed left-0 top-1/2 transform -translate-y-1/2 bg-white/60 backdrop-blur-md p-4 shadow-lg rounded-r-lg">
           <h3 className="font-bold mb-1">分类</h3>
           <ul>
             {categories.map((category) => (
               <li
-                key={category.value}
+                key={category.categoryCode}
                 className={`cursor-pointer py-1 hover:text-blue-500 ${
-                  selectedCategory === category.value ? "text-blue-500" : ""
+                  selectedCategory === category.categoryCode ? "text-blue-500" : ""
                 }`}
-                onClick={() => setSelectedCategory(category.value)}
+                onClick={() => setSelectedCategory(category.categoryCode)}
               >
-                {category.label}
+                {category.categoryName}
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </section>
     </main>
   );
