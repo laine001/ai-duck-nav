@@ -21,21 +21,27 @@ export const generateBadgeClass = (category: CategoryCodeType): string => {
 }
 
 export const generateRandomBg = (): string => {
-  const colorList = [
-    'bg-red-100 text-red-800',
-    'bg-blue-100 text-blue-800',
-    'bg-green-100 text-green-800',
-    'bg-yellow-100 text-yellow-800',
-    'bg-purple-100 text-purple-800',
-    'bg-pink-100 text-pink-800',
-    'bg-teal-100 text-teal-800',
-    'bg-indigo-100 text-indigo-800',
-    'bg-orange-100 text-orange-800',
-    'bg-gray-100 text-gray-800',
-    'bg-cyan-100 text-cyan-800',
-    'bg-amber-100 text-amber-800',
-    'bg-lime-100 text-lime-800',
-    'bg-fuchsia-100 text-fuchsia-800',
+  const colorGradientPostion = [
+    'bg-gradient-to-l',
+    'bg-gradient-to-r',
+    'bg-gradient-to-t',
+    'bg-gradient-to-b',
   ]
-  return colorList[Math.floor(Math.random() * colorList.length)]
+  const colorList = [
+    'from-pink-50 to-pink-200',
+    'from-yellow-50 to-yellow-200',
+    'from-green-50 to-green-200',
+    'from-blue-50 to-blue-200',
+    'from-indigo-50 to-indigo-200',
+    'from-purple-50 to-purple-200',
+    'from-red-50 to-led-200',
+    'from-teal-50 to-teal-200',
+    'from-cyan-50 to-cyan-200',
+    'from-emerald-50 to-emerald-200',
+    'from-lime-50 to-lime-200',
+    'from-amber-50 to-amber-200',
+    'from-sky-50 to-sky-200',
+    'from-violet-50 to-violet-200',
+  ]
+  return `${colorList[Math.floor(Math.random() * colorList.length)]} ${colorGradientPostion[Math.floor(Math.random() * colorGradientPostion.length)]}`
 }
