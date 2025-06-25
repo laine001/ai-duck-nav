@@ -8,16 +8,6 @@ const CategoryTabs = ({
   const { t } = useTranslation();
   return (
     <div className="flex space-x-2 overflow-x-auto py-2">
-      <button
-          className={`px-4 py-2 rounded-full cursor-pointer text-sm transition-colors ${
-            activeCategory === 'all'
-              ? "bg-primary text-white"
-              : "bg-white text-neutral hover:text-primary"
-          }`}
-          onClick={() => onCategoryChange('all')}
-        >
-          {t('全部')}
-        </button>
       {categories.map((category: any) => (
         <button
           key={category.code}
@@ -32,6 +22,16 @@ const CategoryTabs = ({
           {t(category.name)}
         </button>
       ))}
+      <button
+        className={`px-4 py-2 rounded-full cursor-pointer text-sm transition-colors ${
+          activeCategory === "all"
+            ? "bg-primary text-white"
+            : "bg-white text-neutral hover:text-primary"
+        }`}
+        onClick={() => onCategoryChange("all")}
+      >
+        {t("全部")}
+      </button>
     </div>
   );
 };

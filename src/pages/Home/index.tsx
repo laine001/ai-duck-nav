@@ -6,6 +6,8 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import ToolCard from "@/components/ToolCard";
 import CategoryTabs from "@/components/CategoryTabs";
 import WeekRecommend from "@/components/WeekRecommend";
+// import DrawerMenu from "@/components/DrawerMenu";
+
 import { aiNavData } from "@/libs/nav-data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList, faBars } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +17,7 @@ import { categoryMap } from "@/libs/const";
 
 const Home = () => {
   const { t } = useTranslation();
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeCategory, setActiveCategory] = useState("assistant");
   const [isSimpleCard, setIsSimpleCard] = useState(false);
   // const [selectedCategory, setSelectedCategory] = useState<any | null>(null);
   // useEffect(() =>{
@@ -43,6 +45,7 @@ const Home = () => {
     <>
       <Header />
       <LanguageSwitcher />
+      {/* <DrawerMenu /> */}
 
       <main className="container mx-auto px-4 py-8">
         {/* 英雄区域 */}
