@@ -43,6 +43,7 @@ const ToolCard = ({
           <img
             src={icon}
             alt={categoryName}
+            loading="lazy"
             className="w-32 h-32 rounded-full object-cover shadow-lg"
           />
         ) : (
