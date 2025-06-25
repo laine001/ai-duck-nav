@@ -1,16 +1,16 @@
-import { useState } from "react";
-import DrawerMenu from "../DrawerMenu";
+// import { useState } from "react";
+// import DrawerMenu from "../DrawerMenu";
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/aiduck.png";
 import "./index.css";
 
 const Header = () => {
   const { t } = useTranslation();
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  // const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const onToggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
+  // const onToggleMobileMenu = () => {
+  //   setIsMobileMenuOpen(!isMobileMenuOpen);
+  // };
 
   return (
     <header className="sticky top-0 z-50 bg-white/60 backdrop-blur-md shadow-sm transition-all duration-300 dark:bg-white/10">
@@ -131,7 +131,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <DrawerMenu onFilter={() => {}} visible={isMobileMenuOpen} />
+      {/* <DrawerMenu onFilter={() => {}} visible={isMobileMenuOpen} /> */}
       {/* <nav
         className={
           isMobileMenuOpen
