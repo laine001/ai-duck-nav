@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const FloatMenu: React.FC = () => {
   const { i18n } = useTranslation();
 
-  const [isDarkMode, setIsDarkMode] = useState(() => {
+  const [isDarkMode] = useState(() => {
     return (
       typeof window !== "undefined" &&
       window.localStorage.getItem("darkMode") === "true"
@@ -31,10 +31,10 @@ const FloatMenu: React.FC = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  const toggleDarkMode = () => {
-    console.log(isDarkMode, "toggleDarkMode");
-    setIsDarkMode(!isDarkMode);
-  };
+  // const toggleDarkMode = () => {
+  //   console.log(isDarkMode, "toggleDarkMode");
+  //   setIsDarkMode(!isDarkMode);
+  // };
 
   const changeLanguage = () => {
     i18n.changeLanguage(i18n.language === "en" ? "zh" : "en");
