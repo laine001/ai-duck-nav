@@ -1,11 +1,12 @@
 import { useMemo, useState, memo } from "react";
 import Header from "@/components/Header";
 import HomeHero from "@/components/HomeHero";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
+// import LanguageSwitcher from "@/components/LanguageSwitcher";
 import ToolCard from "@/components/ToolCard";
 import CategoryTabs from "@/components/CategoryTabs";
 import Footer from "@/components/Footer";
 import WeekRecommend from "@/components/WeekRecommend";
+import FloatMenu from "@/components/FloatMenu";
 // import DrawerMenu from "@/components/DrawerMenu";
 
 import { aiNavData } from "@/libs/nav-data";
@@ -55,7 +56,7 @@ const Home = () => {
   return (
     <>
       <Header onFilterCategory={onFilterCategory} onSearchTool={onSearchTool} />
-      <LanguageSwitcher />
+      <FloatMenu />
 
       <main className="container mx-auto px-4 py-8">
         {/* 英雄区域 */}
