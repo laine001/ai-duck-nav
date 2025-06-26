@@ -132,7 +132,7 @@ const Home = () => {
             return (
               <>
                 <div className="text-xl my-4">{item.categoryName}</div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
                   {item.list.map((tool: INavListItemType, index: number) => (
                     <ToolCard
                       {...tool}
