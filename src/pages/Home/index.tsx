@@ -19,22 +19,29 @@ import CategoryMenu from "@/components/CategoryMenu";
 
 const MemoToolCard = memo(ToolCard);
 
+const isSimpleCardStorage = localStorage.getItem("isSimpleCard") === "true";
+
 const Home = () => {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState("assistant");
-  const [isSimpleCard, setIsSimpleCard] = useState(false);
-  const [, setSearchText] = useState(""); // 搜索文本状态
+  const [isSimpleCard, setIsSimpleCard] = useState(isSimpleCardStorage);
+  const [searchText, setSearchText] = useState(""); // 搜索文本状态
+  const [searchResultList, setSearchResultList] = useState<any[]>(
+    []
+  ); // 搜索结果列表
 
   const toggleCardStyle = () => {
+    localStorage.setItem("isSimpleCard", String(!isSimpleCard));
     setIsSimpleCard(!isSimpleCard);
   };
   // 过滤工具
   const filteredTools = useMemo(() => {
+    setSearchText("");
     if (activeCategory === "all") {
       return aiNavData;
     }
     return aiNavData.filter((tool) => tool.categoryCode === activeCategory);
-  }, [activeCategory])
+  }, [activeCategory]);
 
   // 分类数据
   const categories = Object.keys(categoryMap).map((code) => ({
@@ -47,11 +54,18 @@ const Home = () => {
   };
   const onSearchTool = (searchText: string) => {
     setSearchText(searchText);
+    const list = filteredTools[0].list;
     // 这里可以添加搜索逻辑，例如过滤工具列表
-    const filteredTools = aiNavData.filter((tool) => {
-      return tool.list.some((item) => item.name.includes(searchText));
+    const tools = list.filter((tool) => {
+      return tool.name.includes(searchText);
     });
-    console.log(filteredTools); // 输出搜索结果，你可以根据需要进行处理或展示
+    setSearchResultList([{
+      list: tools,
+      categoryName: filteredTools[0].categoryName,
+      categoryCode: filteredTools[0].categoryCode,
+    }]);
+    // setSearchText
+    console.log(tools, filteredTools, "filteredTools"); // 输出搜索结果，你可以根据需要进行处理或展示
   };
   return (
     <>
@@ -69,11 +83,13 @@ const Home = () => {
               <h3 className="text-2xl font-bold text-neutral mr-2 dark:text-white">
                 工具分类
               </h3>
-              <FontAwesomeIcon
-                icon={isSimpleCard ? faList : faBars}
-                className="cursor-pointer hover:text-gray-600"
-                onClick={toggleCardStyle}
-              />
+              <button className="btn btn-circle">
+                <FontAwesomeIcon
+                  icon={isSimpleCard ? faList : faBars}
+                  className="cursor-pointer hover:text-gray-600"
+                  onClick={toggleCardStyle}
+                />
+              </button>
             </div>
             <CategoryTabs
               categories={categories}
@@ -83,7 +99,7 @@ const Home = () => {
           </div>
 
           {/* AI工具卡片网格 */}
-          {filteredTools.map((item: INavDataType) => {
+          {(searchText ? searchResultList : filteredTools).map((item: INavDataType) => {
             return (
               <>
                 <div className="text-xl my-4">{item.categoryName}</div>

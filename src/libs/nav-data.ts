@@ -2322,6 +2322,462 @@ export const aiNavData: INavDataType[] = [
     ]
   },
   {
+    categoryCode: "audio",
+    categoryName: "AI音频",
+    list: [
+      {
+        "name": "魔音工坊",
+        "desc": "AI配音工具，轻松配出媲美真人的声音",
+        "url": "https://www.moyin.com/?channelCode=AIGJJ01_20240905",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/moyin-icon.png"
+      },
+      {
+        "name": "通义听悟",
+        "desc": "阿里推出的AI会议转录工具，万语千言，心领神悟",
+        "url": "https://tingwu.aliyun.com/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/tingwu-icon.png"
+      },
+      {
+        "name": "讯飞智作",
+        "desc": "科大讯飞推出的AI转语音和配音工具",
+        "url": "https://peiyin.xunfei.cn/?ftype=14",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/peyin-xunfei-icon.png"
+      },
+      {
+        "name": "听脑AI",
+        "desc": "AI语音录音记录助手",
+        "url": "https://itingnao.com/home?source=3514&unit=3516",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/itingnao-ai-icon.png"
+      },
+      {
+        "name": "Suno",
+        "desc": "高质量的AI音乐创作平台",
+        "url": "https://www.suno.ai/?ref=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/12/suno-ai-icon.png"
+      },
+      {
+        "name": "海绵音乐",
+        "desc": "字节跳动推出的免费AI音乐创作和发现平台",
+        "url": "https://www.haimian.com/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/06/haimianyinyue-logo.png"
+      },
+      {
+        "name": "音疯",
+        "desc": "昆仑万维推出的AI音乐创作平台，一键生成原创歌曲",
+        "url": "https://www.yinfeng.cn/home?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/09/yinfeng-logo1.png"
+      },
+      {
+        "name": "ElevenLabs",
+        "desc": "AI文本转语音，支持包含中文在内的28种语言",
+        "url": "https://try.elevenlabs.io/mqbahm8egbk8",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/08/elevenlabs-icon.png"
+      },
+      {
+        "name": "琅琅配音",
+        "desc": "智能文本转语音工具",
+        "url": "https://lang123.top/?rmd=64546",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/07/lang123-logo.png"
+      },
+      {
+        "name": "Noiz AI",
+        "desc": "AI配音工具，支持文本转语音和声音克隆",
+        "url": "https://ai-bot.cn/noiz-ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2025/04/Noiz-AI-logo.png"
+      },
+      {
+        "name": "MiniMax Audio",
+        "desc": "MiniMax推出的AI语音合成工具，支持声音克隆",
+        "url": "https://ai-bot.cn/minimax-audio",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2025/03/MiniMax-logo.png"
+      },
+      {
+        "name": "Mureka",
+        "desc": "昆仑万维推出的 AI 音乐商用创作平台",
+        "url": "https://ai-bot.cn/mureka",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2025/03/Mureka-logo.png"
+      },
+      {
+        "name": "天谱乐",
+        "desc": "唱鸭团队推出的首个多模态音乐生成大模型",
+        "url": "https://ai-bot.cn/tianpuyue",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/12/tianpuyue-logo.png"
+      },
+      {
+        "name": "音剪",
+        "desc": "喜马拉雅推出的一站式AI音频创作平台",
+        "url": "https://audioeditor.ximalaya.com/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/11/yinjian-logo.png"
+      },
+      {
+        "name": "简单听记",
+        "desc": "百度网盘推出的AI语音转文字工具",
+        "url": "https://pan.baidu.com/embed/listennote?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/11/listennote-logo.png"
+      },
+      {
+        "name": "讯飞听见",
+        "desc": "科大讯飞推出的在线AI语音转文字工具",
+        "url": "https://www.iflyrec.com/zhuanwenzi.html?from=ai-bot_zwz",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/meeting-iflyrec-icon.png"
+      },
+      {
+        "name": "MemoAI",
+        "desc": "免费的AI语音转文字工具",
+        "url": "https://memo.ac/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/MemoAI-logo1.png"
+      },
+      {
+        "name": "Reecho睿声",
+        "desc": "超拟真的中英文AI语音克隆/生成平台",
+        "url": "https://www.reecho.ai/?ref=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/02/reecho-ai-icon.png"
+      },
+      {
+        "name": "Udio",
+        "desc": "免费的AI音乐创作工具，每月可生成1200首歌曲",
+        "url": "https://www.udio.com/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/04/udio-ai-icon.png"
+      },
+      {
+        "name": "网易天音",
+        "desc": "网易推出的一站式AI音乐创作工具",
+        "url": "https://tianyin.163.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/tianyin-163-icon.png"
+      },
+      {
+        "name": "TME Studio",
+        "desc": "腾讯音乐推出的智能音乐创作助手",
+        "url": "https://y.qq.com/tme_studio/index.html#",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/tme-studio-icon.png"
+      },
+      {
+        "name": "Lyrics Into Song AI",
+        "desc": "在线AI音乐创作工具，输入歌词创建个性化歌曲",
+        "url": "https://lyricsintosong.ai/zh?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/09/Lyrics-Into-Song-AI-logo.png"
+      },
+      {
+        "name": "Stable Audio",
+        "desc": "Stability AI最新推出的音乐生成工具",
+        "url": "https://www.stableaudio.com/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/09/stable-audio-icon.png"
+      },
+      {
+        "name": "TextToSpeech",
+        "desc": "完全免费的AI文字转语音工具",
+        "url": "https://texttospeech.im/zh-CN?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/TextToSpeech-logo.png"
+      },
+      {
+        "name": "TTSMaker",
+        "desc": "马克配音（MakVoice）推出的免费AI文字转语音工具",
+        "url": "https://ttsmaker.cn/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/TTSMaker-website.png"
+      },
+      {
+        "name": "LOVO AI",
+        "desc": "专业的AI文字转语音工具，支持500+声音和100种语言",
+        "url": "https://lovo.ai/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/lovo-ai-icon.png"
+      },
+      {
+        "name": "Uberduck",
+        "desc": "开源的AI语音生成社区，5000多种不同的声音",
+        "url": "https://uberduck.ai/?via=ai-bot",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/uberduck-icon.png"
+      },
+      {
+        "name": "Sonauto",
+        "desc": "免费的AI音乐生成和歌曲创作工具",
+        "url": "https://sonauto.ai/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/04/sonauto-icon.png"
+      },
+      {
+        "name": "天工SkyMusic",
+        "desc": "昆仑万维发布的国内首个AI音乐生成大模型",
+        "url": "https://www.tiangong.cn/music?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/08/tiangong-ai-search-icon.png"
+      },
+      {
+        "name": "大饼AI变声",
+        "desc": "免费专业的AI变声软件，一键实时语音变声",
+        "url": "https://dubbing.tech/?ref=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/11/dubbing-ai-icon.png"
+      },
+      {
+        "name": "Supertone Shift",
+        "desc": "AI驱动的实时语音变换软件",
+        "url": "https://product.supertone.ai/shift?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/supertone-shift-icon.png"
+      },
+      {
+        "name": "Riffusion",
+        "desc": "AI生成不同风格的音乐，免费开源",
+        "url": "https://www.riffusion.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/11/riffusion-ai-icon.png"
+      },
+      {
+        "name": "Adobe Podcast",
+        "desc": "Adobe推出的在线AI音频录制和编辑工具",
+        "url": "https://podcast.adobe.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/adobe-podcast-icon.png"
+      },
+      {
+        "name": "网易云音乐·X Studio",
+        "desc": "网易云音乐与小冰智能联合推出的免费AI歌手音乐创作软件",
+        "url": "https://xstudio.music.163.com/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/06/xstudio-music-163-icon.png"
+      },
+      {
+        "name": "刺鸟配音",
+        "desc": "刺鸟科技推出的专业AI配音工具",
+        "url": "https://www.icnpy.com/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/ciniao-py-logo.png"
+      },
+      {
+        "name": "Wondercraft",
+        "desc": "AI音频内容生成工具，可创建播客有声书等",
+        "url": "https://www.wondercraft.ai/?via=ai-bot",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/wondercraft-icon.png"
+      },
+      {
+        "name": "Fryderyk",
+        "desc": "AI音乐创作工具，集成了多种乐器声音",
+        "url": "https://fryderyk.ai/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/Fryderyk-website.png"
+      },
+      {
+        "name": "Voicenotes",
+        "desc": "AI驱动的语音笔记工具",
+        "url": "https://voicenotes.com/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/voicenotes-icon.png"
+      },
+      {
+        "name": "OptimizerAI",
+        "desc": "AI声音效果生成工具",
+        "url": "https://www.optimizerai.xyz/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/04/optimizerai-icon.png"
+      },
+      {
+        "name": "ACE Studio",
+        "desc": "AI歌声合成工具，输入歌词与旋律即可生成宛如真人的歌声",
+        "url": "https://ace-studio.timedomain.cn",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/ace-studio-icon.png"
+      },
+      {
+        "name": "蓝藻AI",
+        "desc": "云知声旗下的AI配音和声音克隆平台",
+        "url": "https://aigc.unisound.com/?ref=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/03/aigc-unisound-icon.png"
+      },
+      {
+        "name": "Deepgram",
+        "desc": "快速低成本的AI语音文本互转API平台",
+        "url": "https://deepgram.partnerlinks.io/ai-bot",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/03/deepgram-icon.png"
+      },
+      {
+        "name": "Audiobox",
+        "desc": "Meta推出的免费开源的AI语音和声音生成模型",
+        "url": "https://audiobox.metademolab.com/?ref=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/meta-icon.png"
+      },
+      {
+        "name": "RESEMBLE.AI",
+        "desc": "AI人声生成工具",
+        "url": "https://www.resemble.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/resemble.ai-icon.png"
+      },
+      {
+        "name": "IBM Watson文字转语音",
+        "desc": "IBM Watson文字转语音",
+        "url": "https://www.ibm.com/cloud/watson-text-to-speech",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/ibm-watson-icon.png"
+      },
+      {
+        "name": "FakeYou",
+        "desc": "Deep Fake文本转语音",
+        "url": "https://fakeyou.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/fakeyou-icon.png"
+      },
+      {
+        "name": "BGM猫",
+        "desc": "灵动音科技推出的AI智能生成BGM音乐",
+        "url": "https://bgmcat.com/home",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/bgmcat-icon.png"
+      },
+      {
+        "name": "快转字幕",
+        "desc": "AI语音视频转文字和字幕的工具",
+        "url": "https://www.kzzimu.com/?ref=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/12/kzzimu-icon.png"
+      },
+      {
+        "name": "悦音配音",
+        "desc": "AI智能在线配音语音合成工具",
+        "url": "https://yueyin.zhipianbang.com?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/yueyin-icon.png"
+      },
+      {
+        "name": "音虫",
+        "desc": "内置AI音乐编曲的音乐制作工具",
+        "url": "https://www.soundbug.com/?ref=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2024/04/soundbug-icon.png"
+      },
+      {
+        "name": "Mubert",
+        "desc": "AI BGM背景音乐生成工具",
+        "url": "https://mubert.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/mubert-icon.png"
+      },
+      {
+        "name": "beatoven.ai",
+        "desc": "免版税AI音乐创建平台",
+        "url": "https://www.beatoven.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/beatoven-ai-icon.png"
+      },
+      {
+        "name": "BeatBot",
+        "desc": "输入文本提示快速生成歌曲和音乐",
+        "url": "https://beatbot.fm/?ref=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/beatbot-icon.png"
+      },
+      {
+        "name": "Audo Studio",
+        "desc": "AI音频清洗工具（噪音消除、声音平衡、音量调节）",
+        "url": "https://audo.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/audo-studio-icon.png"
+      },
+      {
+        "name": "NaturalReader",
+        "desc": "AI文本转语音工具",
+        "url": "https://www.naturalreaders.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/naturalreader-icon.png"
+      },
+      {
+        "name": "AssemblyAI",
+        "desc": "转录和理解语音的AI模型",
+        "url": "https://www.assemblyai.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/assembly-ai-icon.png"
+      },
+      {
+        "name": "LALAL.AI",
+        "desc": "AI人声乐器分离和提取",
+        "url": "https://www.lalal.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/lalal.ai-icon.png"
+      },
+      {
+        "name": "Krisp",
+        "desc": "AI噪音消除工具",
+        "url": "https://krisp.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/krisp-ai-icon.png"
+      },
+      {
+        "name": "Play.ht",
+        "desc": "超真实在线AI语音生成",
+        "url": "https://play.ht",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/play-ht-icon.png"
+      },
+      {
+        "name": "Murf AI",
+        "desc": "AI文本转语音生成工具",
+        "url": "https://murf.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/murf-ai-icon.png"
+      },
+      {
+        "name": "Lemonaid",
+        "desc": "AI音乐生成工具",
+        "url": "https://www.lemonaide.ai/?utm_source=aiduck.netlify.app",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/lemonaid-icon.png"
+      },
+      {
+        "name": "Soundraw",
+        "desc": "AI音乐生成工具",
+        "url": "https://soundraw.io",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/soundraw-icon.png"
+      },
+      {
+        "name": "Boomy",
+        "desc": "AI快速生成原创音乐的平台",
+        "url": "https://boomy.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/boomy-icon.png"
+      },
+      {
+        "name": "LOVO AI",
+        "desc": "AI人声和文本转语音生成工具",
+        "url": "https://lovo.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/lovo-ai-icon.png"
+      },
+      {
+        "name": "Typecast",
+        "desc": "在线AI文字转语音生成工具",
+        "url": "https://typecast.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/typecast-ai-icon.png"
+      },
+      {
+        "name": "Veed AI Voice Generator",
+        "desc": "Veed推出的AI语音生成器",
+        "url": "https://www.veed.io/tools/text-to-speech-video/ai-voice-generator",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/veed-io-icon.png"
+      },
+      {
+        "name": "Clipchamp AI旁白生成器",
+        "desc": "Clipchamp的文字转语音生成器",
+        "url": "https://clipchamp.com/zh-hans/features/ai-voice-over-generator",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/clipchamp-icon.png"
+      },
+      {
+        "name": "MetaVoice",
+        "desc": "AI实时变声工具",
+        "url": "https://themetavoice.xyz",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/themetavoice-icon.png"
+      },
+      {
+        "name": "Speechify",
+        "desc": "超2000万人都在用的文字转语音朗读器",
+        "url": "https://speechify.com/zh-hans",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/speechify-icon.png"
+      },
+      {
+        "name": "Voicemaker",
+        "desc": "AI文本到语音生成工具",
+        "url": "https://voicemaker.in",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/voicemaker-icon.png"
+      },
+      {
+        "name": "Voice.ai",
+        "desc": "实时AI变声工具",
+        "url": "https://voice.ai",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/voice-ai-icon.png"
+      },
+      {
+        "name": "Listnr",
+        "desc": "AI文本到语音生成器",
+        "url": "https://www.listnr.tech",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/listnr-icon.png"
+      },
+      {
+        "name": "Voicemod",
+        "desc": "AI变声工具",
+        "url": "https://www.voicemod.net/ai-voices",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/voicemod-icon.png"
+      },
+      {
+        "name": "WellSaid Labs",
+        "desc": "AI文本转语音工具",
+        "url": "https://wellsaidlabs.com",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/wellsaidlabs-icon.png"
+      },
+      {
+        "name": "Notta",
+        "desc": "AI在线将语音转换成文字",
+        "url": "https://www.notta.ai/en",
+        "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/notta-ai-icon.png"
+      },
+    ]
+  },
+  {
     categoryCode: "video",
     categoryName: "视频剪辑",
     list: [
@@ -2925,6 +3381,486 @@ export const aiNavData: INavDataType[] = [
         "url": "https://huiyingzimu.com/?ref=aiduck.netlify.app",
         "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/huiyingzimu-icon.png"
       }
+    ]
+  },
+  {
+    categoryCode: "design",
+    categoryName: "AI设计",
+    list: [
+        {
+            "name": "绘蛙",
+            "desc": "AI电商营销工具，免费生成商品图和种草文案",
+            "url": "https://ihuiwa.paluai.com/aibot",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png"
+        },
+        {
+            "name": "美间AI",
+            "desc": "新一代AI画布式创意设计平台",
+            "url": "https://www.meijian.com/ai?utm_source=mjaidhaibot",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2025/06/meijianai-logo.png"
+        },
+        {
+            "name": "稿定AI",
+            "desc": "一站式AI创作和设计平台",
+            "url": "https://www.gaoding.com/utms/1591aff1eb344c64a364a5e6dd7fcbdd",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/gaoding-design-icon.png"
+        },
+        {
+            "name": "Recraft AI",
+            "desc": "免费无限AI画板，生成高质量矢量艺术画、图标、3D图片和插画",
+            "url": "https://www.recraft.ai/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/06/recraft-ai-icon.png"
+        },
+        {
+            "name": "Pic Copilot",
+            "desc": "阿里国际推出的AI电商设计工具",
+            "url": "https://www.piccopilot.com/create/?utm_source=aff&utm_medium=aibot1",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/11/pic-copilot-logo.png"
+        },
+        {
+            "name": "Figma AI",
+            "desc": "Figma推出的原生AI设计工具",
+            "url": "https://www.figma.com/ai/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/11/figma-icon.png"
+        },
+        {
+            "name": "创客贴AI",
+            "desc": "AI辅助的智能在线设计工具",
+            "url": "https://aiart.chuangkit.com/matrix?utm_source=aibotQD",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/chuangkit-aiart-icon.png"
+        },
+        {
+            "name": "美图设计室",
+            "desc": "AI图像创作和设计平台",
+            "url": "https://www.designkit.com/tools?channel=10026",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/meitu-ai-ppt.jpg"
+        },
+        {
+            "name": "蚂上有创意",
+            "desc": "支付宝推出的AI设计工具，面向商家提供电商设计服务",
+            "url": "https://idesign.alipay.com/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/11/mashangyouchuangyi-logo.png"
+        },
+        {
+            "name": "爱设计",
+            "desc": "AI在线设计平台，提供多端在线拖拽设计工具",
+            "url": "https://www.isheji.com/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/10/isheji-logo-1.png"
+        },
+        {
+            "name": "魔力工作室",
+            "desc": "Canva可画推出的一站式AI创作套件",
+            "url": "https://www.canva.cn/magic/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/canva-icon.png"
+        },
+        {
+            "name": "Microsoft Designer",
+            "desc": "微软推出的在线设计海报和宣传图工具",
+            "url": "https://designer.microsoft.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/microsoft-designer-icon.png"
+        },
+        {
+            "name": "Onlook",
+            "desc": "开源AI视觉编辑工具，设计修改自动同步代码",
+            "url": "https://ai-bot.cn/onlook",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2025/02/Onlook-logo.png"
+        },
+        {
+            "name": "燕雀光年",
+            "desc": "AI LOGO设计工具",
+            "url": "https://www.yanqueai.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2025/06/yanque-logo.png"
+        },
+        {
+            "name": "Looka",
+            "desc": "AI在线设计和生成logo",
+            "url": "https://looka.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/looka-icon.png"
+        },
+        {
+            "name": "智绘设计",
+            "desc": "腾讯推出的智能设计平台，让内容更精彩",
+            "url": "https://taishan.qq.com/brand/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/taishan-qq-icon.png"
+        },
+        {
+            "name": "MasterGo AI",
+            "desc": "国产产品设计工具MasterGo推出的智能UI设计助手",
+            "url": "https://mastergo.com/upcoming-ai/apply?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/06/mastergo-ai-icon.png"
+        },
+        {
+            "name": "墨刀AI",
+            "desc": "墨刀推出的AI产品原型设计助手",
+            "url": "https://modao.cc/feature/ai.html?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/modao-icon.png"
+        },
+        {
+            "name": "居然设计家",
+            "desc": "居然之家联合阿里推出的AI家装设计平台",
+            "url": "https://ai-bot.cn/design-shejijia",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2025/04/shejijia-logo.png"
+        },
+        {
+            "name": "FigJam AI",
+            "desc": "Figma推出的AI白板协作设计工具",
+            "url": "https://www.figma.com/figjam/ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/11/figma-icon.png"
+        },
+        {
+            "name": "鹿班",
+            "desc": "阿里推出的智能设计商品图和海报的平台",
+            "url": "https://luban.aliyun.com/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/luban-icon.png"
+        },
+        {
+            "name": "Magic Design",
+            "desc": "在线设计工具Canva推出的AI设计工具",
+            "url": "https://www.canva.com/magic-design",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/canva-icon.png"
+        },
+        {
+            "name": "简单设计",
+            "desc": "免费的在线设计、图片处理工具",
+            "url": "https://www.jiandan.link/?rel=DB2V2320",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/jiandan.link-logo.png"
+        },
+        {
+            "name": "135 AI排版",
+            "desc": "公众号AI图文排版和智能文案生成工具",
+            "url": "https://www.135editor.com/ai_editor/?track_id=34&hmmd=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/04/135-ai-editor-icon.png"
+        },
+        {
+            "name": "笔格设计",
+            "desc": "AI设计工具合集，包括文生图、智能消除等",
+            "url": "https://bigesj.com/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/07/bige-website01-副本.png"
+        },
+        {
+            "name": "Logoai",
+            "desc": "AI LOGO创建设计平台，一站式品牌打造",
+            "url": "https://www.logoai.com/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/11/logoai-logo-1.png"
+        },
+        {
+            "name": "豆绘AI",
+            "desc": "AI绘图设计平台，一键生成720°VR全景图",
+            "url": "https://www.douhuiai.com/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/10/douhuiai-logo-1.png"
+        },
+        {
+            "name": "千图网",
+            "desc": "在线设计图片素材平台",
+            "url": "https://www.58pic.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/11/58pic-logo-1.png"
+        },
+        {
+            "name": "Pictographic",
+            "desc": "AI插图资源库和生成平台",
+            "url": "https://pictographic.io/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/pictographic-icon.png"
+        },
+        {
+            "name": "Fable Prism",
+            "desc": "AI动效设计和动画效果制作工具",
+            "url": "https://www.fable.app/prism?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/03/fable-icon.png"
+        },
+        {
+            "name": "Wegic",
+            "desc": "AI网页设计和建站开发工具",
+            "url": "https://wegic.ai/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/wegic-icon.png"
+        },
+        {
+            "name": "匠紫",
+            "desc": "一站式AI设计工具",
+            "url": "https://jiangziai.com/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/匠紫AI-logo.png"
+        },
+        {
+            "name": "Collov AI",
+            "desc": "AI室内家居设计生成平台",
+            "url": "https://collov.cn/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/03/collov-ai-icon.png"
+        },
+        {
+            "name": "包图网AI素材库",
+            "desc": "包图网提供的特色图库服务",
+            "url": "https://ibaotu.com/tupian/shuziyishu.html?spm=aibot1",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/07/baotu-logo.png"
+        },
+        {
+            "name": "易可图",
+            "desc": "免费的AI图片编辑和海报设计平台",
+            "url": "https://www.yiketu.com/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/10/yiketu-logo.png"
+        },
+        {
+            "name": "笔魂AI",
+            "desc": "AI设计工具，支持AI抠图、消除、无损放大",
+            "url": "https://ibihun.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/08/ibihun-logo-1.png"
+        },
+        {
+            "name": "Creatie",
+            "desc": "AI驱动的UI和UX设计工具",
+            "url": "https://creatie.ai/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/03/creatie-icon.png"
+        },
+        {
+            "name": "Kittl",
+            "desc": "AI驱动的平面图形设计工具",
+            "url": "https://www.kittl.com/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/01/kittl-icon.png"
+        },
+        {
+            "name": "Dzine",
+            "desc": "一站式AI图像编辑和设计工具",
+            "url": "https://www.dzine.ai/?via=ai-bot",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/stylar-ai-icon.png"
+        },
+        {
+            "name": "Ilus AI",
+            "desc": "AI插画插图生成工具",
+            "url": "https://ilus.ai/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/05/ilus-ai-icon.png"
+        },
+        {
+            "name": "酷家乐AI",
+            "desc": "功能强大的AI家居设计软件",
+            "url": "https://www.kujiale.cn/activities/AI-kujiale?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/12/kujiale-icon.png"
+        },
+        {
+            "name": "Pixso AI",
+            "desc": "国产在线设计工具Pixso的内置AI助手，支持AI文生图、AI对话、AI设计等",
+            "url": "https://pixso.cn/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/08/pixso-ai-icon.jpg"
+        },
+        {
+            "name": "Framer AI",
+            "desc": "Framer推出的AI网站自动设计、生成和上线",
+            "url": "https://www.framer.com/ai?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/06/framer-icon.png"
+        },
+        {
+            "name": "LogoliveryAI",
+            "desc": "免费的AI Logo生成器，提供SVG矢量格式",
+            "url": "https://logolivery.ai/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/06/logoliveryai-icon.png"
+        },
+        {
+            "name": "Motiff 妙多",
+            "desc": "猿辅导旗下推出的AI界面设计工具",
+            "url": "https://motiff.com/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/08/motiff-icon.png"
+        },
+        {
+            "name": "Pimento",
+            "desc": "人工智能驱动的设计创意和视觉参考平台",
+            "url": "https://www.pimento.design/?ref_id=TU7BJC0X4",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/12/pimento-design-icon.png"
+        },
+        {
+            "name": "Logo Diffusion",
+            "desc": "AI驱动的Logo和标志生成工具",
+            "url": "https://logodiffusion.com/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/12/logo-diffusion-icon.png"
+        },
+        {
+            "name": "Realibox AI",
+            "desc": "AI免费将草图/模型生成3D渲染图",
+            "url": "https://www.realibox.com/product/ai?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/06/realibox-icon.png"
+        },
+        {
+            "name": "Vectorizer.AI",
+            "desc": "AI一键将位图转换为矢量图片",
+            "url": "https://vectorizer.ai/?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/08/vectorizer-ai-icon.png"
+        },
+        {
+            "name": "模袋云AI",
+            "desc": "建筑AI创作平台，专注于大型建筑、小型住宅、室内设计、景观的出图和AI模型训练",
+            "url": "https://www.modaiyun.com/mdy/ai?utm_source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/07/modaiyun-ai-icon.png"
+        },
+        {
+            "name": "Vizcom",
+            "desc": "AI渲染转化手绘图为产品设计图",
+            "url": "https://www.vizcom.ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/vizcom-ai-icon.png"
+        },
+        {
+            "name": "Dora AI",
+            "desc": "AI在线生成精美3D动画的网站",
+            "url": "https://www.dora.run/ai?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/dora-ai-icon.png"
+        },
+        {
+            "name": "Designs.ai",
+            "desc": "AI设计工具",
+            "url": "https://designs.ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/designs-ai-icon.png"
+        },
+        {
+            "name": "Galileo AI",
+            "desc": "AI高保真原型设计",
+            "url": "https://www.usegalileo.ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/galileo-ai-icon.png"
+        },
+        {
+            "name": "Spline AI",
+            "desc": "Spline推出的AI生成3D物体、动画、材质",
+            "url": "https://spline.design/ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/spline-ai-icon.png"
+        },
+        {
+            "name": "千图设计室AI海报",
+            "desc": "免费批量生成在线可编辑的AI海报工具",
+            "url": "https://hihaibao.com?from=ai-bot",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/03/hihaibao-icon.png"
+        },
+        {
+            "name": "illostrationAI",
+            "desc": "AI插画生成，low poly、3D、矢量、logo、像素风、皮克斯等风格",
+            "url": "https://www.illostration.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/illostration-ai-icon.png"
+        },
+        {
+            "name": "Uizard",
+            "desc": "AI网页、App和UI设计，快速生成应用和网站原型",
+            "url": "https://uizard.io/ai-design",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/uizard-icon.png"
+        },
+        {
+            "name": "Luma AI",
+            "desc": "AI 3D捕捉、建模和渲染",
+            "url": "https://lumalabs.ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/luma-ai-icon.png"
+        },
+        {
+            "name": "图宇宙",
+            "desc": "高品质AI智能设计平台",
+            "url": "https://www.nolibox.com/introduction?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/tuyuzhou-icon.png"
+        },
+        {
+            "name": "阿里云智能logo设计",
+            "desc": "阿里云推出的智能Logo设计",
+            "url": "https://ai-bot.cn/sites/1989.html",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/aliyun-icon.png"
+        },
+        {
+            "name": "AIDesign",
+            "desc": "腾讯推出的免费AI Logo在线设计工具",
+            "url": "https://ai-bot.cn/sites/1957.html",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/ailogo-qq-icon.png"
+        },
+        {
+            "name": "Fabrie AI",
+            "desc": "在线白板协作平台Fabrie推出的AI设计助手，支持多种渲染模式",
+            "url": "https://kebuxi.datasink.sensorsdata.cn/r/dF",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/07/fabrie-icon.png"
+        },
+        {
+            "name": "Poly",
+            "desc": "AI生成3D材质",
+            "url": "https://withpoly.com/browse/textures",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/poly-3d-ai-icon.png"
+        },
+        {
+            "name": "Illustroke",
+            "desc": "AI SVG矢量插画生成工具",
+            "url": "https://illustroke.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/illustroke-ai.png"
+        },
+        {
+            "name": "Eva Design System",
+            "desc": "基于深度学习的色彩生成工具",
+            "url": "https://colors.eva.design",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/eva-design-icon.png"
+        },
+        {
+            "name": "Color Wheel",
+            "desc": "AI灰度logo或插画上色工具",
+            "url": "https://brandmark.io/color-wheel",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/brandmark-icon.png"
+        },
+        {
+            "name": "Huemint",
+            "desc": "AI调色生成工具",
+            "url": "https://huemint.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/huemint-icon.png"
+        },
+        {
+            "name": "ColorMagic",
+            "desc": "AI调色板生成工具",
+            "url": "https://www.obviously.ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/colormagic-app-icon.png"
+        },
+        {
+            "name": "Logomaster.ai",
+            "desc": "AI Logo生成工具",
+            "url": "https://logomaster.ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/logomaster-ai-con.png"
+        },
+        {
+            "name": "Magician",
+            "desc": "Figma插件，AI生成图标、图片和UX文案",
+            "url": "https://magician.design",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/magician-icon.png"
+        },
+        {
+            "name": "Appicons AI",
+            "desc": "AI生成精美App图标",
+            "url": "https://appicons.ai",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/appicons-ai-icon.png"
+        },
+        {
+            "name": "IconifyAI",
+            "desc": "AI App图标生成器",
+            "url": "https://www.iconifyai.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/iconifyai-icon.png"
+        },
+        {
+            "name": "Khroma",
+            "desc": "AI调色盘生成工具",
+            "url": "https://www.khroma.co",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/khroma-icon.png"
+        },
+        {
+            "name": "即时AI",
+            "desc": "即时设计推出的由文本描述生成可编辑的原型设计稿",
+            "url": "https://jsai.cc/ai/create?source=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/03/js-design-icon.png"
+        },
+        {
+            "name": "Alpaca",
+            "desc": "将生成式AI集成到Photoshop图像设计中",
+            "url": "https://www.getalpaca.io/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/04/getalpaca-icon.png"
+        },
+        {
+            "name": "羚珑",
+            "desc": "京东推出的商品图智能设计小工具",
+            "url": "https://ling.jd.com",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/05/ling-jd-icon.png"
+        },
+        {
+            "name": "灵动AI",
+            "desc": "专业的AI商品图生成工具",
+            "url": "https://www.redoon.cn/?ref=aiduck.netlify.app",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2023/12/redoon-ai-icon.png"
+        },
+        {
+            "name": "PhotoMagic",
+            "desc": "AI快速生成商拍图片",
+            "url": "https://www.photomagic.cn/?utm_source=aigongjuji",
+            "icon": "https://ai-bot.cn/wp-content/uploads/2024/02/photomagic-icon.png"
+        }
     ]
   },
   {

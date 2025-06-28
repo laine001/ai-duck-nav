@@ -9,7 +9,7 @@ export const generateBadgeClass = (category: CategoryCodeType): string => {
     'audio': 'bg-purple-100 text-purple-800',
     'video': 'bg-blue-100 text-blue-800',
     'office': 'bg-orange-100 text-orange-800',
-    'ai': 'bg-gray-100 text-gray-800',
+    // 'ai': 'bg-gray-100 text-gray-800',
     'programming': 'bg-indigo-100 text-indigo-800',
     'design': 'bg-pink-100 text-pink-800',
     'learning': 'bg-teal-100 text-teal-800',

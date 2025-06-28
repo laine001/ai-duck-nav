@@ -1,3 +1,5 @@
+import logo from "@/assets/aiduck.png";
+
 export default () => {
   return (
     <footer className="bg-neutral text-white py-12">
@@ -6,7 +8,8 @@ export default () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <i className="fa-solid fa-robot text-white"></i>
+                {/* <i className="fa-solid fa-robot text-white"></i> */}
+                <img src={logo} alt="logo" className="w-10 h-10 rounded-full" />
               </div>
               <h3 className="text-xl font-bold">AI导航</h3>
             </div>
@@ -14,18 +17,6 @@ export default () => {
               最全面的AI工具导航网站，帮助你发现和使用最好的人工智能工具。
             </p>
             <div className="flex space-x-4">
-              {/* <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <i className="fa-brands fa-twitter"></i>
-              </a> */}
-              {/* <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <i className="fa-brands fa-linkedin"></i>
-              </a> */}
               <a
                 href="https://github.com/laine001"
                 target="_blank"
@@ -36,7 +27,7 @@ export default () => {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4 dark:text-white">工具分类</h4>
             <ul className="space-y-2">
               <li>
@@ -64,7 +55,7 @@ export default () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div>
             <h4 className="text-lg font-semibold mb-4 dark:text-white">友情链接</h4>
             <ul className="space-y-2">
