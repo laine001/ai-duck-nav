@@ -83,11 +83,10 @@ const Home = () => {
               <h3 className="text-2xl font-bold text-neutral mr-2 dark:text-white">
                 工具分类
               </h3>
-              <button className="btn btn-circle">
+              <button className="btn btn-circle cursor-pointer" onClick={toggleCardStyle}>
                 <FontAwesomeIcon
                   icon={isSimpleCard ? faList : faBars}
-                  className="cursor-pointer hover:text-gray-600"
-                  onClick={toggleCardStyle}
+                  className="hover:text-gray-600"
                 />
               </button>
             </div>
@@ -131,7 +130,7 @@ const Home = () => {
 
         <section className="mb-16">
           <h3 className="text-2xl font-bold text-neutral mb-8 text-center dark:text-white">
-            按类别浏览AI工具
+            {t('所有ai导航分类')}
           </h3>
 
           <CategoryMenu />

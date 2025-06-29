@@ -11,7 +11,7 @@ export default () => {
                 {/* <i className="fa-solid fa-robot text-white"></i> */}
                 <img src={logo} alt="logo" className="w-10 h-10 rounded-full" />
               </div>
-              <h3 className="text-xl font-bold">AI导航</h3>
+              <h3 className="text-xl font-bold">AIDuck工具箱</h3>
             </div>
             <p className="text-gray-400 mb-4">
               最全面的AI工具导航网站，帮助你发现和使用最好的人工智能工具。
