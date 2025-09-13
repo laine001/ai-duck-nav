@@ -61,7 +61,7 @@ export default () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://itpmp.netlify.app"
+                  href="https://itpmp.cc"
                   target="_blank"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
